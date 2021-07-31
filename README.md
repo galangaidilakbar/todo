@@ -23,7 +23,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installation Guide
 
-To run this project on your machine, you need to do the following things:
+To get this project up and running on your machine, you need to do the following things:
 
 - Clone this repo `git clone https://github.com/Galangaidil/Todolist-Laravel-Vue.git`.
 - Open `.env.example` file and save as `.env`.
@@ -31,9 +31,14 @@ To run this project on your machine, you need to do the following things:
 - Open `.env` file and set `DB_DATABASE=todolist`.
 - Open terminal and do the following command:
   ```
+    php artisan serve
+
     npm install
-    npm run dev
+
+    npm install vue
+    npm run hot
   ```
+- open [http://127.0.0.1:8000](http://127.0.0.1:8000) in the browser.
 
 
 ## Learning Laravel

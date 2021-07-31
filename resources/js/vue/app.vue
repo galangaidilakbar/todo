@@ -42,16 +42,24 @@ export default {
 
 <style scoped>
 .todoListContainer {
+  font-family: "Nunito";
   width: 500px;
   margin: auto;
 }
 
 .heading {
-  background: #e6e6e6;
+  /* background: #e6e6e6; */
+  background: #e5e7eb;
   padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
 }
 
 #title {
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-align: center;
+  margin-bottom: 10px;
+  color: #6366f1;
 }
 </style>

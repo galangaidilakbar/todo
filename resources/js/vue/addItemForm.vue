@@ -1,6 +1,6 @@
 <template>
   <div class="addItem">
-    <input type="text" v-model="item.name" />
+    <input type="text" v-model="item.name" autofocus />
     <font-awesome-icon
       icon="plus-square"
       @click="addItem()"
@@ -55,14 +55,18 @@ input {
   outline: none;
   margin-right: 10px;
   width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .plus {
   font-size: 20px;
+  cursor: pointer;
 }
 
 .active {
-  color: #00ce25;
+  /* color: #00ce25; */
+  color: #34d399;
 }
 
 .inactive {

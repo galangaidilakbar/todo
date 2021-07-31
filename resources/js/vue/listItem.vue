@@ -47,10 +47,11 @@ export default {
 <style scoped>
 .completed {
   text-decoration: line-through;
-  color: #999999;
+  color: #999999 !important;
 }
 
 .itemText {
+  color: #1f2937;
   width: 100%;
   margin-left: 20px;
 }
@@ -64,7 +65,10 @@ export default {
 .trashcan {
   background: #e6e6e6;
   border: none;
-  color: #ff0000;
+  /* color: #ff0000; */
+  color: #ef4444;
   outline: none;
+  cursor: pointer;
+  margin-right: 8px;
 }
 </style>

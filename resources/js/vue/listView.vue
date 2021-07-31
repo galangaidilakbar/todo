@@ -23,8 +23,9 @@ export default {
 
 <style scoped>
 .item {
-  background: #e6e6e6;
+  background: #e5e7eb;
   padding: 5px;
   margin-top: 5px;
+  border-radius: 5px;
 }
 </style>

@@ -21,6 +21,21 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Installation Guide
+
+To run this project on your machine, you need to do the following things:
+
+- Clone this repo 'git clone https://github.com/Galangaidil/Todolist-Laravel-Vue.git'.
+- Open '.env.example' file and save as '.env'.
+- Create database named 'todolist'.
+- Open '.env' file and set 'DB_DATABASE=todolist'.
+- Open terminal and do the following command:
+  '''
+    npm install
+    npm run dev
+  '''
+
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.

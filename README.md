@@ -38,7 +38,7 @@ To get this project up and running on your machine, you need to do the following
     npm install vue
     npm run hot
   ```
-- open [http://127.0.0.1:8000](http://127.0.0.1:8000) in the browser.
+- Try to open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
 
 ## Learning Laravel
